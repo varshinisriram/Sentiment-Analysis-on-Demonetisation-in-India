@@ -1,7 +1,7 @@
 # Project
 Sentiment Analysis of Demonetization Tweets in India
 
->This pilot project is part of Data Byte, the Data Science and Business Analytics Club of NIT Trichy
+>This pilot project is part of Data Byte, the Data Science and Business Analytics Club of NIT Trichy.
 >The code and allied files of Sentiment Analysis of the first 8000 Tweets on Demonetisation are present.
 >The dataset is obtained from Kaggle.
 
