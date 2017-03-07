@@ -19,8 +19,6 @@ Pragyaditya Das (https://github.com/Jeet1994)
 #Dataset: Can be downloaded from Kaggle
 (https://www.kaggle.com/arathee2/demonetization-in-india-twitter-data/downloads/demonetization-in-india-twitter-data.zip)
 
-#Purpose: Post induction task 
-
 #Language used: R
 
 #Packages used:
