@@ -9,7 +9,7 @@ library("RColorBrewer")
 library("qdap")
 
 #Read the dataset into a variable
-dataset <- read_csv("demonetization-tweets.csv")
+dataset <- read_csv("~\\Datasets\\dataset.csv")
 
 #Store the 'text' column in a separate variable
 tweet = dataset$text
