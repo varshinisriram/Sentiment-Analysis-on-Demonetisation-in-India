@@ -6,8 +6,8 @@ Tweeter.
 
 ---------- 
 **Team :** 
- 1. [Shivani](https://github.com/shivanichander)
- 2. [Varshini](https://github.com/varshinisriram)
+ 1. [Varshini](https://github.com/varshinisriram)
+ 2. [Shivani](https://github.com/shivanichander)
  3. [Jeyassri](https://github.com/shreeju)
 
 ----------
