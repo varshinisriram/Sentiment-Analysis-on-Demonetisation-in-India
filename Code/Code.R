@@ -1,10 +1,7 @@
 #Loading required packages
-library("twitteR")
-library("tm")
-library("SnowballC")
-library("wordcloud")
 library("readr")
-library("NLP")
+library("tm")
+library("wordcloud")
 library("RColorBrewer")
 library("qdap")
 
@@ -14,7 +11,8 @@ dataset <- read_csv("~\\Datasets\\dataset.csv")
 #Store the 'text' column in a separate variable
 tweet = dataset$text
 
-#Clean the tweets using gsub:
+#Clean the tweets using gsub
+
 #Remove control characters
 tweet = gsub("[[:cntrl:]]", " ", tweet)
 #Remove retweets
