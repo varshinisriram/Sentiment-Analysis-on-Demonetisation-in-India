@@ -2,13 +2,13 @@
 Tweeter.
 
 ----------
-**Organization**: [Data Byte, The Data Science and Business Analytics Club of NIT Trichy](https://github.com/DataByteNITT).
+**Organization**: [Data Byte, The Data Science and Business Analytics Club of NIT Trichy](https://github.com/DataByteNITT)
 
 ---------- 
 **Team :** 
- 1. [Shivani.](https://github.com/shivanichander)
- 2. [Varshini.](https://github.com/varshinisriram)
- 3. [Jeyassri.](https://github.com/shreeju)
+ 1. [Shivani](https://github.com/shivanichander)
+ 2. [Varshini](https://github.com/varshinisriram)
+ 3. [Jeyassri](https://github.com/shreeju)
 
 ----------
 **Mentor:**
@@ -18,10 +18,10 @@ Tweeter.
 **Dataset:** Can be downloaded from [Kaggle.](https://www.kaggle.com/arathee2/demonetization-in-india-twitter-data/downloads/demonetization-in-india-twitter-data.zip)
 
 ----------
-**Purpose:** Post induction tasks. 
+**Purpose:** Pilot Project 
 
 ----------
-**Language used:** R.
+**Language used:** R
 
 ----------
 **Packages used:**
