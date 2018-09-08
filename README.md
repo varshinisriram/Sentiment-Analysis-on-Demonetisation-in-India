@@ -1,5 +1,4 @@
-**Project** : Sentiment Analysis of Demonetization in India using 
-Tweeter.
+**Project** : Sentiment Analysis of Demonetization in India
 
 ----------
 **Organization**: [Data Byte, The Data Science and Business Analytics Club of NIT Trichy](https://github.com/DataByteNITT)
