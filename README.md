@@ -12,7 +12,7 @@ Tweeter.
 
 ----------
 **Mentor:**
-[Pragyaditya Das](https://github.com/Jeet1994).
+[Pragyaditya Das](https://github.com/Jeet1994)
  
 ----------
 **Dataset:** Can be downloaded from [Kaggle.](https://www.kaggle.com/arathee2/demonetization-in-india-twitter-data/downloads/demonetization-in-india-twitter-data.zip)
@@ -25,15 +25,12 @@ Tweeter.
 
 ----------
 **Packages used:**
- 1. twitteR
+ 1. readr
  2. tm
- 3. SnowballC
- 4. wordcloud
- 5. RCurl
- 6. stringr
- 7. ggplot2
- 8. readr
- 9. qdap
+ 3. wordcloud
+ 4. RColorBrewer
+ 5. qdap
+ 6. ggplot2
  
 ----------
 **To read more on Demonetization:**
