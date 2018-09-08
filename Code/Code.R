@@ -4,9 +4,13 @@ library("tm")
 library("wordcloud")
 library("RColorBrewer")
 library("qdap")
+library("ggplot2")
+
+#Assuming the working directory is same as the code location and moving up one folder
+setwd('..')
 
 #Read the dataset into a variable
-dataset <- read_csv("~\\Datasets\\dataset.csv")
+dataset <- read_csv("Datasets/dataset.csv")
 
 #Store the 'text' column in a separate variable
 tweet = dataset$text
@@ -72,6 +76,7 @@ plot(hc)
 #Word Associations
 #To find the correlation of the word modi with other words
 assocs = findAssocs(tweet_tdm, "modi", 0.2)
+#For the function list_vect2df to work, you need to install a Java version that fits to the type of R version you are using
 #Putting the words and their correlations in a table
 assocs_df = list_vect2df(assocs)[,2:3]
 #Plotting the correlation
@@ -104,6 +109,8 @@ score.sentiment <- function(sentences, positive_words, negative_words, .progress
 }
 
 #Importing postive and negative words list
+#Changing the working directory
+setwd("OpinionLexicon/")
 positive <- scan('positive-words.txt', what='character', comment.char=';')
 negative <- scan('negative-words.txt', what='character', comment.char=';')
 
@@ -209,6 +216,5 @@ NegativeplotData <- data.frame(dates=Negativedatebreaks[1:length(Negativedatebre
 #Combining all data into a single data frame 
 overallplotdata = rbind(neutralplotData, PositiveplotData, NegativeplotData)
 #Plotting everything
-ggplot(overallplotdata) + 
-  geom_line(aes(x = dates, y = tweets, group = sentiment, colour = sentiment)) + labs(title = "Number of tweets over Time", x = "Time", y = "No. of tweets") + theme(plot.title = element_text(hjust = 0.5)) + scale_color_manual(values = c("dodgerblue4", "forestgreen", "firebrick3"))
+ggplot(overallplotdata) + geom_line(aes(x = dates, y = tweets, group = sentiment, colour = sentiment)) + labs(title = "Number of tweets over Time", x = "Time", y = "No. of tweets") + theme(plot.title = element_text(hjust = 0.5)) + scale_color_manual(values = c("dodgerblue4", "forestgreen", "firebrick3"))
 
